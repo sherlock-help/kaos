@@ -2809,6 +2809,9 @@ function get_kaos(str)
 end
 
 math.randomseed(os.time())
+ime.register_command("get_kaos", "kaos", trigger_0, {})
+ime.register_command("get_kaos", "kaos", trigger_1, {})
+ime.register_command("get_kaos", "kaos", trigger_2, {})
 ime.register_trigger("get_kaos", "kaos", trigger_0, {})
 ime.register_trigger("get_kaos", "kaos", trigger_1, {})
 ime.register_trigger("get_kaos", "kaos", trigger_2, {})
